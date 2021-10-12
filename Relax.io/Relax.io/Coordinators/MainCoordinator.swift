@@ -21,8 +21,20 @@ class MainCoordinator: Coordinator {
     }
     
     func showVC() {
+        
         let viewController = ViewController.instantiate()
+        
+        viewController.showOrangeVC = { [weak self] in
+            self?.showSecondVC()
+        }
+        
+        
         navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    private func showSecondVC() {
+        let secondVC = SecondViewController.instantiate()
+        navigationController.pushViewController(secondVC, animated: true)
     }
     
 }

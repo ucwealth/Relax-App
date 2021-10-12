@@ -8,10 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController, Storyboardable {
-
+    var showOrangeVC: (() -> Void)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        title = "Relax.io"
+        navigationController?.navigationBar.prefersLargeTitles = false
+    }
+    
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        showOrangeVC?()
     }
 
 

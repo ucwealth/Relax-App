@@ -16,6 +16,7 @@
 		B407D49E2715E524009086F4 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B407D49D2715E524009086F4 /* MainCoordinator.swift */; };
 		B407D4A02715E942009086F4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B407D49F2715E942009086F4 /* Coordinator.swift */; };
 		B407D4A22715ED79009086F4 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B407D4A12715ED79009086F4 /* Storyboardable.swift */; };
+		B407D4AA2716066A009086F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B407D4A92716066A009086F4 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B407D49D2715E524009086F4 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		B407D49F2715E942009086F4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B407D4A12715ED79009086F4 /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		B407D4A92716066A009086F4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				B407D48D2715E480009086F4 /* ViewController.swift */,
+				B407D4A92716066A009086F4 /* SecondViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				B407D49E2715E524009086F4 /* MainCoordinator.swift in Sources */,
 				B407D4A02715E942009086F4 /* Coordinator.swift in Sources */,
 				B407D48A2715E480009086F4 /* AppDelegate.swift in Sources */,
+				B407D4AA2716066A009086F4 /* SecondViewController.swift in Sources */,
 				B407D4A22715ED79009086F4 /* Storyboardable.swift in Sources */,
 				B407D48C2715E480009086F4 /* SceneDelegate.swift in Sources */,
 			);
